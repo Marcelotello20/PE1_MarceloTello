@@ -49,7 +49,7 @@ function productoMensaje() {
         let tuGrabacion = prompt("Cuentame sobre tu proyecto, si posees la instrumental , su concepto, etc. y te intentare responder lo mas rápido para proceder a trabajar. Muchas gracias.");
         return tuGrabacion;
     } else if (( productoIntroducido === "produccion completa" ) || ( productoIntroducido === "producción completa")) {
-        alert ("Elegiste grabación" + " " + nombreCompleto + ", el siguiente paso es que me hables sobre tu proyecto");
+        alert ("Elegiste producir el beat y la grabacion en promo" + " " + nombreCompleto + ", el siguiente paso es que me hables sobre tu proyecto");
         let tuGrabacion = prompt("Cuentame sobre tu proyecto, si ya tienes alguna maqueta, alguna referencia, su concepto, etc. y te intentare responder lo mas rápido para proceder a trabajar. Muchas gracias.");
         return tuGrabacion;
     }
